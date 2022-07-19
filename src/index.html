@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <link rel="stylesheet" href="./styles/font.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="intro">
+      <img src="./img/intro.png" alt="intro picture" class="intro__img" />
+      <div class="container-description">
+        <h2 class="container-description__title">
+          We will help you find your new best friend
+        </h2>
+        <p class="container-description__subtitle">Save a life, adopt a pet</p>
+      </div>
+      <div class="container-buttons">
+        <button class="__button">Start now</button>
+      </div>
+    </section>
+
+    <section class="registration">
+      <div class="registration-container">
+        <h2 class="registration-title">Create account</h2>
+
+        <form>
+          <input type="text" placeholder="Full name" />
+          <input type="tel" placeholder="Email or Phone" />
+          <input type="password" placeholder="Password" />
+          <img src="./img/eye.png" alt="eye" class="__img-absolute" />
+          <label
+            ><input type="checkbox" class="_input" />
+            <span class="checkbox"></span>
+            <span>
+              I agree to the <a href="#">Terms & Conditions</a> and
+              <a href="#">Privacy Policy</a>
+            </span>
+          </label>
+        </form>
+
+        <div class="container-buttons">
+          <button class="__button _margin">Sign up</button>
+        </div>
+
+        <span class="__text-join _text-center"
+          >Already have an account?<a href="#">Join now!</a>
+        </span>
+
+        <span class="__text-signup _text-center">Or sign up with </span>
+
+        <div class="container-buttons _gap">
+          <button class="__button _resize">
+            <img src="../src/img/google.svg" alt="google" />
+          </button>
+          <button class="__button _resize">
+            <img src="/src/img/apple.svg" alt="apple" />
+          </button>
+          <button class="__button _resize">
+            <img
+              src="./img/facebook.svg"
+              alt="facebook"
+              class="__svg-facebook"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

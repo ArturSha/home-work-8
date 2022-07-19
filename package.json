@@ -1,0 +1,25 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "test",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturSha/home-work-8.git"
+  },
+  "author": "Artur Sha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturSha/home-work-8/issues"
+  },
+  "homepage": "https://github.com/ArturSha/home-work-8#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  }
+}

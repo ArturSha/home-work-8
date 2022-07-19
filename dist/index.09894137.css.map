@@ -1,0 +1,1 @@
+{"mappings":";AAEA","sources":["src/styles/font.css"],"sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap\");\r\n\r\nbody {\r\n  font-family: \"Inter\", sans-serif;\r\n}\r\n"],"names":[],"version":3,"file":"index.09894137.css.map","sourceRoot":"/__parcel_source_root/"}
